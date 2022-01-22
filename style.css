@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Architects Daughter', cursive;
     background: #F3F1FF;
 }
 main{
@@ -11,17 +11,12 @@ main{
 .container{
     background: white;
     width: 870px;
-    padding: 30px;
+    height: 679px;
+    padding: 25px;
 }
-.top-players{
-    
-}
-.players-name{
-margin-left: 16px;
-}
-.player img{
-    width: 56px;
-    height: 56px;
+.title{
+    color: #562EFF;
+    font-size: 24px;
 }
 .players{
     display: grid;
@@ -31,7 +26,10 @@ margin-left: 16px;
     display: flex;
     align-items: center;
 }
-
-.title{
-    color: #562EFF;
+.player img{
+    width: 56px;
+    height: 56px;
+}
+.players-name{
+    margin-left: 16px;
 }
