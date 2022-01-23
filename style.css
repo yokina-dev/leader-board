@@ -50,6 +50,9 @@ hr{
     grid-template-columns: repeat(2, 1fr);
     
 }
+.title-b{
+width: 100%;
+}
 .blog{
     display: flex;
 }
