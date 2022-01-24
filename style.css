@@ -1,27 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 
+
+/* 
+███╗░░░███╗░█████╗░██╗███╗░░██╗  ████████╗░█████╗░░██████╗░
+████╗░████║██╔══██╗██║████╗░██║  ╚══██╔══╝██╔══██╗██╔════╝░
+██╔████╔██║███████║██║██╔██╗██║  ░░░██║░░░███████║██║░░██╗░
+██║╚██╔╝██║██╔══██║██║██║╚████║  ░░░██║░░░██╔══██║██║░░╚██╗
+██║░╚═╝░██║██║░░██║██║██║░╚███║  ░░░██║░░░██║░░██║╚██████╔╝
+╚═╝░░░░░╚═╝╚═╝░░╚═╝╚═╝╚═╝░░╚══╝  ░░░╚═╝░░░╚═╝░░╚═╝░╚═════╝░ */
 
 body{
     background: #F3F1FF;
-    font-family: 'Architects Daughter', cursive;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container{
+    margin-top: 15px;
 }
 .title{
     color: #562EFF;
     font-size: 24px;
-}
-main{
-    display: flex;
-    justify-content: center;
+    margin-top: 3px;
 }
 .container{
-    background: whitesmoke;
+    background: rgb(250, 249, 249);
     padding: 30px;
     width: 870px;
-    border-radius: 5px;
-}
-.top-players-title{
-    margin-top: 3px;
+    border-radius: 14px;
 }
 .player{
     display: flex;
@@ -38,19 +48,22 @@ main{
     grid-template-columns: repeat(3,1fr);
     grid-row-gap: 29px;
 }
-
 hr{
     margin-top: 30px;
+    margin-bottom: 30px;
 }
-/* ---------------------------------------------- */
-.top-blogs{
-    
-}
+
+/* ████████╗░█████╗░██████╗░  ██████╗░██╗░░░░░░█████╗░░██████╗░░██████╗
+   ╚══██╔══╝██╔══██╗██╔══██╗  ██╔══██╗██║░░░░░██╔══██╗██╔════╝░██╔════╝
+   ░░░██║░░░██║░░██║██████╔╝  ██████╦╝██║░░░░░██║░░██║██║░░██╗░╚█████╗░
+   ░░░██║░░░██║░░██║██╔═══╝░  ██╔══██╗██║░░░░░██║░░██║██║░░╚██╗░╚═══██╗
+   ░░░██║░░░╚█████╔╝██║░░░░░  ██████╦╝███████╗╚█████╔╝╚██████╔╝██████╔╝
+   ░░░╚═╝░░░░╚════╝░╚═╝░░░░░  ╚═════╝░╚══════╝░╚════╝░░╚═════╝░╚═════╝░ */
+
 .thumbline img{
     width: 177px;
     height: 117px;
 }
-
 .blogs{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -58,6 +71,7 @@ hr{
 }
 .blog{
     display: flex;
+    align-items: flex-end;
 }
 .blog-info{
     margin-left: 16px;
@@ -65,4 +79,32 @@ hr{
 }
 .blog-info a{
     text-decoration: none;
+}
+
+/* -------------------
+
+██╗░░░░░░█████╗░████████╗███████╗░██████╗████████╗  ░█████╗░░█████╗░██╗░░░██╗██████╗░░██████╗███████╗░██████╗
+██║░░░░░██╔══██╗╚══██╔══╝██╔════╝██╔════╝╚══██╔══╝  ██╔══██╗██╔══██╗██║░░░██║██╔══██╗██╔════╝██╔════╝██╔════╝
+██║░░░░░███████║░░░██║░░░█████╗░░╚█████╗░░░░██║░░░  ██║░░╚═╝██║░░██║██║░░░██║██████╔╝╚█████╗░█████╗░░╚█████╗░
+██║░░░░░██╔══██║░░░██║░░░██╔══╝░░░╚═══██╗░░░██║░░░  ██║░░██╗██║░░██║██║░░░██║██╔══██╗░╚═══██╗██╔══╝░░░╚═══██╗
+███████╗██║░░██║░░░██║░░░███████╗██████╔╝░░░██║░░░  ╚█████╔╝╚█████╔╝╚██████╔╝██║░░██║██████╔╝███████╗██████╔╝
+╚══════╝╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚═════╝░░░░╚═╝░░░  ░╚════╝░░╚════╝░░╚═════╝░╚═╝░░╚═╝╚═════╝░╚══════╝╚═════╝░
+----------------------- */
+
+.course-thumbline img{
+    width: 224px; 
+    height: 104px;
+}
+.course-info a{
+    text-decoration: none;
+}
+.fa-star{
+    color: #FFC014;
+}
+.course0time{
+
+}
+.about{
+    display: flex;
+    align-items: center;
 }
