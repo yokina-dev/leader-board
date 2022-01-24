@@ -80,3 +80,9 @@ width: 100%;
     margin-top: 3px;
     padding: 30px;
 }
+ /* Courses */
+ .courses img,h3,p{
+    width: 266px;
+    height: 141px;
+    padding: 30px;
+ }
